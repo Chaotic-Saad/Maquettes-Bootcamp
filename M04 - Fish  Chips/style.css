@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "slabo";
+  src: url(slabo.ttf);
+}
+@font-face {
+  font-family: "opensans";
+  src: url(opensans.ttf);
+}
+
+.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+nav {
+	padding: 10px;
+	font-size: 1.3em;
+    text-align: center;
+      
+}
+header {
+	background-color: #34B1B5;
+	border-top:solid  #277a7b;
+	border-bottom:solid  #277a7b;
+ 
+}
+nav>a {
+	margin: 10px;
+	font-family: slabo;
+	color: white;
+	font-size: 1em;
+	text-decoration: none;
+}
+h1 {
+	text-align: center;
+}
+body {
+	 background-image: url("img/fond.png");
+}
+p {
+	text-align: ;
+	font-family:opensans;
+}
+
+.readmore {
+	float : right;
+   background-color: #34B1B5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.recipe1 {
+	float: left; 
+	margin-right: 10px;
+	text-align: justify;
+	border-radius: 200px;
+	
+}
+.recipe2 {
+	float:left;  
+	margin-right: 10px;
+	text-align: justify;
+	border-radius: 200px;
+}
+
+article
+{
+    width:30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    }
+aside
+{
+    width:25%;
+    background-color:#34B1B5; 
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 20px;
+	box-shadow: inset 5px 0 5px -5px #29627e;
+	width: 290px;
+
+}
+
+h2{
+	text-align: center;
+	font-family: slabo;
+	 
+}
+.welcome {
+	text-align: center;
+	font-family: slabo;
+	margin-bottom: ;
+}
+	
+ 
+
+.today {
+	font-size:3.5em;
+	font-family: slabo;
+	text-align: center;
+}
+.recipe {
+	font-size: 1.8em;
+}
+.News {
+	font-size: 1.4em;
+	text-align: center;
+	font-family: slabo;
+
+}
+h1  {
+	font-size: 2.5em;
+	font-family: slabo;
+	
+}
+
+
+.solid {
+	border: 3px solid #277a7b;
+}
+.vignette {
+
+    width: 150px;
+    height: 150px;
+    position:relative;
+    right:-201px;
+    top:-20px;
+	
+
+}
+main section {
+	display: inline-block;
+	margin-left: 10%;
+	vertical-align: top;
+}
+
+#section1 {
+	background-color:#B6DEDD;
+	width: 40%;
+	border-radius: 20px;
+	box-shadow: inset 5px 0 5px -5px #29627e;
+	display: ;
+}
+
+#section2{
+width: 30%;
+
+}
+
+
+
+span {
+	color:#34B1B5;
+}
+
+#ART1 {
+	margin-left: 150px;
+	text-align: center;
+	vertical-align: top;
+}
+.global {
+
+	margin: 0px auto;
+	width: 80%;
+
+
+}	
+h3 {
+ font-family: slabo;
+}
+footer
+{
+	text-align: center;
+	font-size: 20px;
+	font-family: slabo;
+}
+.logoecole
+{
+	width: 50px;
+	width: 50px;
+	margin-top: 25px;
+}
+i {
+	color: #25c2c5;
+}

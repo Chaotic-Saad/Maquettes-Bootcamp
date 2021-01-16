@@ -1,0 +1,255 @@
+@font-face {
+    font-family: "Bodega Sans";
+    src: url(../fonts/BodegaSans_Black.ttf);
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: "Open Sans", arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #444444;
+    background-image: url(../img/bg_body.svg);
+}
+
+header {
+    background: linear-gradient(135deg, #ffffff 0%, #ffffff 50%, #333333 51%, #333333 100%);
+}
+
+main>h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header a {
+    display: block;
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #FF9D00;
+}
+
+header li {
+    margin-bottom: 10px;
+}
+
+.logo {
+    margin: 20px 0 20px 10%;
+    float: left;
+}
+
+.logo>img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Bodega Sans", arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.nav_top {
+    padding: 20px;
+    line-height: 1.5;
+    text-align: right;
+    font-family: "Bodega Sans", arial, sans-serif;
+}
+
+article>video {
+    display: none;
+}
+
+main {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+main section {
+    margin: 1rem;
+}
+
+.moto {
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+}
+
+.team>section>img {
+    width: 100%;
+}
+
+.team h3,
+.team p {
+    background-color: white;
+    text-align: center;
+}
+
+h3 {
+    color: #FF9D00;
+    border-bottom: 1px solid #FF9D00;
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    padding: 20px;
+    border-left: 1px solid #333333;
+    border-top: 1px solid #333333;
+}
+
+h1 {
+    font-size: 4rem;
+    clear: both;
+    color: white;
+    padding: 20px;
+    border-left: 1px solid #333333;
+    border-top: 1px solid #333333;
+}
+
+.team a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    background-color: #FF9D00;
+    padding: 10px;
+    text-align: center;
+}
+
+span {
+    color: #FF9D00;
+}
+
+video {
+    width: 30%;
+    margin-top: 0;
+    margin-left: 20px;
+    float: right;
+    margin-bottom: 50px;
+}
+
+.fab {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #444444;
+    font-size: 35px;
+    padding: 5px;
+    width: 45px;
+    height: 40px;
+    margin: 40px;
+}
+
+.box {
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+/* LICENCE */
+
+#licence {
+    display: block;
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+
+#licence img {
+    width: 50px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer h3 {
+    color: white;
+    border: none;
+    padding: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+footer a,
+small a {
+    color: white;
+}
+
+@media screen and (max-width: 860px) {
+    main,
+    footer p {
+        margin: 15px;
+    }
+    .team {
+        display: block;
+    }
+    .moto {
+        display: block;
+        margin: auto;
+        width: 90%;
+        margin: 20px;
+    }
+    article>video {
+        clear: both;
+        display: block;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    section>video {
+        display: none;
+    }
+    .fab {
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header {
+        background: linear-gradient(140deg, #ffffff 0%, #ffffff 50%, #333333 51%, #333333 100%);
+    }
+    .nav_top {
+        padding: 60px;
+    }
+    #logo {
+        padding-bottom: 50px;
+    }
+}

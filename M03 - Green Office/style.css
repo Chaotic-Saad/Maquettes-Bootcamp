@@ -1,0 +1,102 @@
+header nav {
+	float: right;
+	padding: 50px;
+	font-size: 1.3em;
+	color: black;
+	
+}
+.az {
+	margin-left:30px;
+    margin-right:30px;
+}
+a {	
+	margin-left:30px;
+    margin-right:30px;
+    text-transform: uppercase;
+    color:black;
+}
+.qq {
+	margin-left:30px;
+    margin-right:30px;
+}
+header {
+	background-color: #B8CB21;
+	font-family: oswald;
+}
+
+section>img {
+	float: left ;
+	margin-right: 10px;
+	text-align: justify;
+}
+
+.readmore {
+	float : right;
+   background-color: #B8CB21;
+  border: none;
+  color: green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+body {
+	
+	font-size: 14px;
+	
+
+	
+}
+h2 {
+	color: #B8CB21;
+;
+}
+div {
+	background-color: white;
+	margin: 0 auto;
+	width: 50%;
+	
+}
+body {
+	 background-image: url("img/fond.png");
+}
+.xox {
+	 font-size: 10px;
+	 text-align : center ; position : fixed ;
+     bottom : 0 ; width : 100% ;
+     display :inline- block ; vertical-align : top ;
+     font-size : 13px ; }
+	
+}
+
+
+.center {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6%;
+}
+p {
+
+	
+}
+h2 {
+	font-family:oswald;
+}
+footer {
+	text-align: center;
+	float: center;
+	font-family: oswald;
+}
+
+
+.abc {
+	clear: both;
+}
+section  {
+	padding: 15px;
+}

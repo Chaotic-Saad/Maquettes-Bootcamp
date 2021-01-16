@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>M09</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Perso CSS -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="flexslider.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Perso JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery.flexslider-min.js"></script>
+    <script>
+        $(window).on('load', function() {
+            $('.flexslider').flexslider({
+                directionNav: false,
+                controlNav: false
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo" href="#"><img src="../img/logo.svg" alt="logo wolf gang"></a>
+        <nav class="nav_top">
+            <ul>
+                <li><a href="https://www.facebook.com/KATEVOLVED90">Nos produits</a></li>
+                <li><a href="https://www.facebook.com/KATEVOLVED90">Nos tarifs</a></li>
+                <li><a href="https://www.facebook.com/KATEVOLVED90">Contactez-nous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>devenez le mozart de la moto avec wolf<span>gang</span>!</h1>
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="../img/slider/1.jpg" alt="photo slider" />
+                </li>
+                <li>
+                    <img src="../img/slider/2.jpg" alt="photo slider" />
+                </li>
+                <li>
+                    <img src="../img/slider/3.jpg" alt="photo slider" />
+                </li>
+            </ul>
+        </div>
+        <section>
+            <h2>découvrez <span>nos motos</span></h2>
+            <div class="team">
+                <section class="moto">
+                    <img src="../img/team/1.jpg" alt="photo moto#1">
+                    <h3>moto#1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <a href="https://www.facebook.com/KATEVOLVED90">en savoir plus</a>
+                </section>
+                <section class="moto">
+                    <img src="../img/team/2.jpg" alt="photo moto#2">
+                    <h3>moto#2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <a href="https://www.facebook.com/KATEVOLVED90">en savoir plus</a>
+                </section>
+                <section class="moto">
+                    <img src="../img/team/3.jpg" alt="photo moto#3">
+                    <h3>moto#3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <a href="#">en savoir plus</a>
+                </section>
+                <section class="moto">
+                    <img src="../img/team/4.jpg" alt="photo moto#4">
+                    <h3>moto#4</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    </p>
+                    <a href="https://www.facebook.com/KATEVOLVED90">en savoir plus</a>
+                </section>
+            </div>
+            <section>
+                <h2>pour nous connaitre <span>plus en détail</span></h2>
+                <video controls>
+                  <source src="video/video.webm" type="video/webm">
+               </video>
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <video class="video_mobile" controls>
+                     <source src="video/video.webm" type="video/webm">
+                  </video>
+                </article>
+            </section>
+        </section>
+    </main>
+</body>
+<footer class="box">
+    <h3>lorem ipsum</h3>
+    <p> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proidentcillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident
+    </p>
+
+    <ul>
+        <li><a href="https://www.facebook.com/KATEVOLVED90">Home</a></li>
+        <li><a href="https://www.facebook.com/KATEVOLVED90">About</a></li>
+        <li><a href="https://www.facebook.com/KATEVOLVED90">Clients</a></li>
+        <li><a href="https://www.facebook.com/KATEVOLVED90">Contact Us</a></li>
+    </ul>
+
+    <small id="licence">
+      <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/"><img alt="Propriété de la 3W Academy" style="border-width:0" src="https://3wa.fr/wp-content/themes/3wa2015/img/logos/big.png" /></a><br />Cet exercice de <a href="https://3wa.fr">3W Academy</a> est mis à disposition <a rel="license" href="https://3wa.fr/propriete-materiel-pedagogique/">pour l'usage personnel des étudiants, Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International</a>.<br />Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a href="mailto:contact@3wa.fr" rel="cc:morePermissions">contact@3wa.fr</a>. Les maquettes ont été réalisées par <a href="http://www.justine-muller.fr">Justine Muller</a>.
+      </small>
+</footer>
+
+</html>
